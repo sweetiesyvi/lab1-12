@@ -1,0 +1,99 @@
+/* all homepage styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(219, 202, 215);
+    overflow-x: hidden;
+}
+
+.HomePage {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.title {
+    width: 300px;
+    padding: 15px 15px;
+    margin: 20px auto;
+    border: 5x;
+    text-align: center;
+    background-color: rgb(219, 202, 215);
+
+}
+
+.text {
+    width: 600px;
+    padding: 20px 20px 15px 15px;
+    margin: 20px auto;
+    border: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(219, 202, 215);
+
+}
+
+#heading {
+    color: rgb(12, 12, 12);
+}
+
+/* changing button colors to help with contrast */
+#sortButtons {
+    display: inline-block;
+    text-align: left;
+    line-height: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 5px solid transparent;
+    width: auto;
+    background-color: rgb(151, 123, 123);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sortButtons:hover {
+    background-color: rgb(131, 103, 103);
+}
+
+/* changing link colors to help with contrast */
+#liveLink,
+#repoLink {
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 2px solid rgb(194, 24, 91);
+    background-color: rgb(194, 24, 91);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#liveLink:hover,
+#repoLink:hover {
+    background-color: rgb(155, 29, 79);
+}
+
+img {
+    display: block;
+    margin: 0;
+}
+
+#imageDiv {
+    transform: scale(2);
+    transform-origin: center;
+
+}

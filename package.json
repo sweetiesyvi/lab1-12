@@ -1,0 +1,26 @@
+{
+  "name": "project-charlie-clone",
+  "version": "1.0.0",
+  "description": "- Maria Dukes https://github.com/mdukes0\r - Junior Vandervort https://github.com/ChickenAlfredo1121\r - syviwha ngulungu https://github.com/sweetiesyvi",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetiesyvi/project-charlie-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweetiesyvi/project-charlie-clone/issues"
+  },
+  "homepage": "https://github.com/sweetiesyvi/project-charlie-clone#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
